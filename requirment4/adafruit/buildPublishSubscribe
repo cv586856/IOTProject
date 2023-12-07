@@ -1,0 +1,4 @@
+#!/bin/bash
+g++ publish.cpp -o publish -pthread -lpaho-mqtt3c
+g++ subscribe.cpp -o subscribe -pthread -lpaho-mqtt3c
+
